@@ -10,7 +10,7 @@ public:
         for(int x : nums) {
             ops += (x - 1) / penalty;
         }
-
+ 
         return ops <= maxOperations;
     }
 
